@@ -1,0 +1,21 @@
+
+---
+const { title } = Astro.props;
+---
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <h2>Meu Portfólio</h2>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>© 2026</p>
+    </footer>
+  </body>
+</html>
